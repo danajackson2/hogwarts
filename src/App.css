@@ -142,3 +142,8 @@ ul {
 .pig-img {
   width: 100%;
 }
+
+.pigbox {
+ border-style: ridge;
+ border-width: 10px
+}

@@ -54,7 +54,7 @@ class Hog extends React.Component{
     render(){
         console.log(this.state.selected)
         return(
-            <div className={'ui eight wide column card'} >
+            <div className={'ui eight wide column pigbox'} >
                 <div onClick={this.handleClick} className={'pig-div'}>
                     <h2>{this.props.hog.name}</h2>
                     {this.state.selected === true ? <div>

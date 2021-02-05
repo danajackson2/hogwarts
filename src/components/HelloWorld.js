@@ -1,10 +1,14 @@
 import React, { Component } from "react";
+import Hog from './Hog'
 
 class HelloWorld extends Component {
+
   render() {
     return (
       <div>
-        <h1>Hello World</h1>
+        <div className={'ui grid container'}>
+          {this.props.hogs.map(h => <Hog hog={h}/>)}
+        </div>
       </div>
     );
   }
